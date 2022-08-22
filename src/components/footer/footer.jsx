@@ -5,8 +5,8 @@ import Texto from "../texto/texto";
 const Footer = () => {
     return(
         <div className="footerContainer">
-            <div className="bg-color">
-                <div className="bg-cut">         
+            <div className="bg-footer-color">
+                <div className="bg-footer-cut">         
                 </div>
             </div>
             <Texto className="linha-footer" texto="Testando suas habilidades em HTML, CSS e JS" />

@@ -5,27 +5,22 @@
     text-align: center;
     align-items: center;
     color: white;
-    height: 25rem;
     width: 100%;
+    height: 20px;
 }
 .linha-footer{
     font-size: 18px;
 }
-.bg-color{
+.bg-footer-color{
     z-index: -1;
-    position: absolute;
+    position:absolute;
     background-color: #707070;
     width: 100%;
-    height: 80%;
-}
-.bg-cut{
-    width: 100%;
     height: 40%;
+}
+.bg-footer-cut{
+    width: 100%;
     z-index: -1;
     position: absolute;
-    transform: skewY(5.3deg);
-    -webkit-transform: skewY(5.3deg);
-    -moz-transform: skewY(5.3deg);
-    -ms-transform: skewY(3deg);
-    -o-transform: skewY(5.3deg);
+    transform: skewY(-5.3deg);
 }
