@@ -1,0 +1,43 @@
+.headerContainer{
+    font-family: Helvetica;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: white;
+    height: 25rem;
+    width: 100%;
+}
+.linhaUm{
+    font-size: 20px;
+}
+.linhaDois{
+    font-size: 40px;
+}
+.linhaTres{
+    font-size: 14px;
+}
+.botaoHeader{
+    display: flex;
+    gap: 30px;
+}
+.bg-color{
+    z-index: -1;
+    position: absolute;
+    background-color: #707070;
+    width: 100%;
+    height: 80%;
+}
+.bg-cut{
+    margin-top: 22rem;
+    background-color: white;
+    width: 100%;
+    height: 60%;
+    z-index: -1;
+    position: absolute;
+    transform: skewY(5.3deg);
+    -webkit-transform: skewY(5.3deg);
+    -moz-transform: skewY(5.3deg);
+    -ms-transform: skewY(3deg);
+    -o-transform: skewY(5.3deg);
+}
